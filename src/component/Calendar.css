@@ -1,0 +1,38 @@
+.calendar-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  timezone-select {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .day {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .time-slot {
+    margin-bottom: 10px;
+  }
+  
+  .checkbox {
+    margin-left: 10px;
+  }
+  
